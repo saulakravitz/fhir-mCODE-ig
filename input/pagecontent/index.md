@@ -49,7 +49,7 @@ mCODE consists of data elements divided into six loosely-arranged groups. Refer 
 
 The groups are illustrated in the following diagram:
 
-![mCODE Logical Model](mCodeDiagram.svg)
+{% include diagram.svg %}
 
 ### Data Dictionary
 
