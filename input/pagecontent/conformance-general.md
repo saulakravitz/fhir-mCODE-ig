@@ -83,7 +83,7 @@ Note that the requests below may return resources associated with patients who a
     * [TeleradiotherapyTreatmentPhase]\: `GET [base]/Procedure?code=mcode-teleradiotherapy-treatment-phase`
 
 * Outcome
-  * [CancerDiseaseStatus]\: `GET [base]/Observation?code=http://loinc.org|88040-1`
+  * [CancerDiseaseStatus]\: `GET [base]/Observation?code=http://loinc.org|97509-4`
   * [Tumor]\: Not identifiable as there are no required elements with fixed values or required value sets in this profile. Note that `BodyStructure.morphology` is fixed to `http://snomed.info/sct|367651003`, but this is not a required element. This may therefore be used to identify some but not all BodyStructure resources conforming to this profile.
   * [TumorSpecimen]\: `GET [base]/Specimen?type=http://terminology.hl7.org/CodeSystem/v2-0487|TUMOR` (note that `TUMOR` MUST be capitalized)
   * [TumorSize]\: `GET [base]/Observation?code=http://loinc.org|21889-1`

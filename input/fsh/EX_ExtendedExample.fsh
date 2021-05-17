@@ -708,7 +708,7 @@ InstanceOf: CancerDiseaseStatus
 Description: "Extended example: example showing disease status (patient's condition improved)"
 * extension[evidenceType].valueCodeableConcept = SCT#363679005 "Imaging (procedure)"
 * status = #final "final"
-* code = LNC#88040-1 "Response to cancer treatment"
+* code = LNC#97509-4 "Cancer Disease Progression"
 * subject = Reference(cancer-patient-jenny-m)
 * effectiveDateTime = "2018-11-01"
 * performer = Reference(us-core-practitioner-owen-oncologist)
